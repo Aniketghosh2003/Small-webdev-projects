@@ -23,7 +23,7 @@ Here is a list of the projects included in this repository:
 1. **Dino Chrome Game Clone**
    - A simple clone of the famous Dino Chrome game using HTML, CSS, and JavaScript.
    - Features basic game mechanics like jumping over obstacles and scoring.
-     
+   - [Web-site link] (https://dino-game-aniket.netlify.app/)
 
 ## Installation
 

@@ -20,10 +20,52 @@ This repository is a collection of small web development projects. Each project 
 
 Here is a list of the projects included in this repository:
 
-1. **Dino Chrome Game Clone**
-   - A simple clone of the famous Dino Chrome game using HTML, CSS, and JavaScript.
-   - Features basic game mechanics like jumping over obstacles and scoring.
-   - [Web-site link] (https://dino-game-aniket.netlify.app/)
+## 1. 🦖 Dino Chrome Game Clone  
+- A simple clone of the famous Dino Chrome game using HTML, CSS, and JavaScript.  
+- Features basic game mechanics like jumping over obstacles and scoring.  
+- [🔗 Live Demo](https://dino-game-aniket.netlify.app/)  
+
+
+## 2. ✅ To-Do List App  
+- A minimalistic To-Do List app built with HTML, CSS, and JavaScript.  
+- Features adding, deleting, and marking tasks as complete with local storage support.  
+- [🔗 Live Demo](https://todolist-aniket.netlify.app/)  
+
+---
+
+## 3. 🌦️ Weather Website  
+- A weather forecast website using HTML, CSS, JavaScript, and OpenWeather API.  
+- Displays real-time weather, temperature, and conditions by city search.  
+
+---
+
+## 4. 🍔 Food Website Template  
+- A responsive restaurant/food delivery website template using HTML, CSS, and JavaScript.  
+- Includes sections for menu, about, contact, and a modern landing page design.  
+- [🔗 Live Demo](https://foodhub-aniket.netlify.app/)  
+
+---
+
+## 5. 🌐 Social Media Template  
+- A front-end template for a social media app using HTML, CSS, and JavaScript.  
+- Features a feed layout, profile section, and responsive UI components.  
+- [🔗 Live Demo](https://socialbook-aniket.netlify.app/)  
+
+---
+
+## 6. ❌⭕ Tic-Tac-Toe Game  
+- A simple Tic-Tac-Toe game made with HTML, CSS, and JavaScript.  
+- Play against a friend with winning logic and reset functionality.  
+- [🔗 Live Demo](https://tic-tac-toe-aniket.netlify.app/)  
+
+---
+
+## 7. 🐦 Flappy Bird Game Clone  
+- A clone of the famous Flappy Bird game using HTML, CSS, and JavaScript.  
+- Features gravity, jumping mechanics, and score tracking.  
+- [🔗 Live Demo](https://flaapy-bird-aniket.netlify.app/)  
+
+---
 
 ## Installation
 

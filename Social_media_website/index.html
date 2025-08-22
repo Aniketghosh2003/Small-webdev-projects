@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation-bar -->
+    <nav>
+      <div class="nav-left">
+        <img src="images/logo.png" alt="logo pic" class="logo" />
+        <ul>
+          <li><img src="images/notification.png" alt="notification" /></li>
+          <li><img src="images/inbox.png" alt="indox icon" /></li>
+          <li><img src="images/video.png" alt="video icon" /></li>
+        </ul>
+      </div>
+      <div class="nav_right">
+        <div class="search_box">
+          <img src="images/search.png" alt="search icon" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav_user_icon online" onclick="settingsmenutoggle()">
+          <img src="images/profile-pic.png" alt="profile-pic" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="#">See Your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-link">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Setting & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-link">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-link">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-link">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- whole-container -->
+    <div class="container">
+      <!-- left-sidebar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" /> Lastest News</a>
+          <a href="#"><img src="images/friends.png" /> Friends </a>
+          <a href="#"><img src="images/group.png" /> Group </a>
+          <a href="#"><img src="images/marketplace.png" /> Marketplace</a>
+          <a href="#"><img src="images/watch.png" /> Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your shortcuts</p>
+          <a href="#"><img src="images/shortcut-1.png" /> Web Developers </a>
+          <a href="#"><img src="images/shortcut-2.png" /> Web Design course </a>
+          <a href="#"
+            ><img src="images/shortcut-3.png" /> Full Stack Development
+          </a>
+          <a href="#"><img src="images/shortcut-4.png" /> Website Experts </a>
+        </div>
+      </div>
+
+      <!-- main-conntent -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="images/upload.png" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="images/member-1.png" />
+            <p>Alison</p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-2.png" />
+            <p>Jackson</p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-3.png" />
+            <p>Samona</p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-4.png" />
+            <p>John</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>John Nicholson</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="what's on your mind, John?"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png" />Live Video</a>
+              <a href="#"><img src="images/photo.png" />Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" />Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>January 6 2024,15:11pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Learning Web Development by doing projects.
+            <a href="#"> #GreatStack</a><a href="#"> #YouTude</a>
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" alt="" />150</div>
+              <div><img src="images/comments.png" alt="" />25</div>
+              <div><img src="images/share.png" alt="" />10</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>December 25 2023,13:31pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            I learned my basics of web development from Dr. Angela Yu
+            <a href="#"> #AngelaYu</a><a href="#"> #Udemy</a>
+          </p>
+          <img src="images/feed-image-2.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" alt="" />200</div>
+              <div><img src="images/comments.png" alt="" />45</div>
+              <div><img src="images/share.png" alt="" />20</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>December 20 2023,10.51Am</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            I finished learning DSA from Love-babber.
+            <a href="#"> #Code-Help</a><a href="#"> #YouTude</a>
+          </p>
+          <img src="images/feed-image-3.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" alt="" />250</div>
+              <div><img src="images/comments.png" alt="" />65</div>
+              <div><img src="images/share.png" alt="" />30</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>April 18 2023, 20.43pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            I started learning dsa from Code-Help.
+            <a href="#"> #Code-Help</a><a href="#"> #YouTude</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" alt="" />400</div>
+              <div><img src="images/comments.png" alt="" />85</div>
+              <div><img src="images/share.png" alt="" />50</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>November 15 2022, 8.11am</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            I started my coding journey with c language from CodewithHarry.
+            <a href="#"> #CodewithHarry</a><a href="#"> #YouTude</a>
+          </p>
+          <img src="images/feed-image-5.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" alt="" />500</div>
+              <div><img src="images/comments.png" alt="" />95</div>
+              <div><img src="images/share.png" alt="" />60</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="Load-More-btn">Load More</button>
+      </div>
+
+      <!-- right-sidebar -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>14</h3>
+            <span>January</span>
+          </div>
+          <div class="right-event">
+            <h4>Ganga Mela</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Hoogarh</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>28</h3>
+            <span>December</span>
+          </div>
+          <div class="right-event">
+            <h4>Birth-Day</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Hoogarh</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="images/advertisement.png" class="sidebar-ads" />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.png" />
+          </div>
+          <p>Alison Mina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.png" />
+          </div>
+          <p>Jackson Aston</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.png" />
+          </div>
+          <p>Samona Rose</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer-section -->
+    <div class="footer">
+      <p>Copyright 2024 - Aniket Ghosh</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
